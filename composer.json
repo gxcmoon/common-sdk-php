@@ -26,7 +26,9 @@
     "require-dev": {
     },
     "autoload": {
-        "GXChain\\Common\\": "src/Common"
+        "psr-4": {
+            "GXChain\\Common\\": "src/Common"
+        }
     },
     "repositories": {
     }
